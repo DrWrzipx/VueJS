@@ -4,10 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 import VeeValidate from 'vee-validate'
+import VueDraggable from 'vuedraggable'
 
 Vue.use(VeeValidate)
+Vue.use(VueDraggable)
 Vue.config.productionTip = false
-
 /* eslint-disable no-new */
 new Vue({
   el: '#app',
