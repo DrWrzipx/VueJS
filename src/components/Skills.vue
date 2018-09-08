@@ -10,19 +10,15 @@
         </div>
     </div>
 </template>
-
-
-
 <script>
 export default {
   name: 'Skills',
-  data() {
-      return {
-          skills: [
-              { "skill": "Vue.js" },
-              { "skill": "FrontEnd developer" }
-          ]
-      }
+  data () {
+    return {
+      skills: [
+        { 'skill': 'Vue.js' },
+        { 'skill': 'FrontEnd developer' }]
+    }
   }
 }
 </script>

@@ -5,11 +5,11 @@
 </template>
 
 <script>
-import Skills from "./components/Skills";
+import Skills from './components/Skills'
 export default {
   name: 'app',
-    components: {
-      Skills
+  components: {
+    Skills
   }
 }
 </script>
